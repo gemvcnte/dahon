@@ -1,0 +1,335 @@
+@import url(https://fonts.googleapis.com/css?family=Inclusive+Sans:regular,italic);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+:root {
+    --primary-bg: #fff;
+    --secondary-bg: #2d3f36;
+    --third-bg: #D1C2B5;
+    --ad-bg: #D6CC99;
+    --secondary-text-color: #fff; /* just in case di bagay sa bg*/
+    --alt-text-color: #3d4246; /* desc only */
+    --primary-text-color: #000;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: #ffffff;
+}
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    color: #000;
+    font-family: 'Inclusive Sans';
+  }
+  
+  .burger-menu {
+      display: flex;
+      justify-content: center;
+      padding: .8rem .5rem;
+  }
+  
+  .header-ad {
+      width: 100vw;
+      background-color: var(--ad-bg);
+      height: 4vh;
+  }
+  
+  .header-ad .ad-content {
+      display: flex;
+      justify-content: center;
+      padding: 8px 0;
+      color: var(--first-color);
+      font-size: 1.1rem;
+      width: 100vw;
+  }
+  
+  .header-ad:hover {
+      opacity: 90%;
+  }
+  
+  .nav-container {
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 2rem;
+      font-size: 1.2rem;
+  
+  }
+  .nav-container .logo {
+      margin: 0 0 0 1rem;
+  }
+  .navigation li a:hover{
+      color: #333;
+  }
+  .navigation li a:after{
+      content: '';
+      display: block;
+      width: 0;
+      height: 2px;
+      background: var(--secondary-bg);
+      transition: width .3s ease;
+  }
+  .navigation li a:hover:after {
+      width: 100%;
+      transition: width .3s;
+  }
+  .nav-container  .hug-container {
+      display: flex;
+      padding: .8rem .5rem;
+  }
+  .second-nav .navigation{
+      display: flex;
+      justify-content: center;
+      margin: 1.5rem 0;
+  }
+  .navigation .nav-list {
+      margin: 0 2.5vh;
+  }
+  .hug-container  .about-us{
+      margin: 0 1rem 0 0;
+  }
+  .contacts {
+      margin: 0 1rem;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+  }
+  .sign-up-in {
+      display: flex;
+      margin: 0 0 0 1rem;
+      text-align: center;
+      justify-content: center;
+      display: flex;
+  }
+  .search-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+  .search-container input{
+      width: 40vh;
+      padding: .8rem .5rem;
+      margin: 0 0 0 13.5vw;
+      border: none;
+      border-bottom: .5px solid black;
+      font-size: 1rem;
+  }
+  .search-container input:focus {
+      outline: none;
+  }
+  .bi-search {
+      margin: 1rem 0 0 0;
+  }
+  .divider-length {
+      width: 1px;
+      background-color: #000;
+  }
+  .burger-menu {
+    display: flex;
+    justify-content: center;
+    padding: .8rem .5rem;
+}
+
+.header-ad {
+    width: 100vw;
+    background-color: var(--ad-bg);
+    height: 4vh;
+}
+
+.header-ad .ad-content {
+    display: flex;
+    justify-content: center;
+    padding: 8px 0;
+    color: var(--first-color);
+    font-size: 1.1rem;
+    width: 100vw;
+}
+
+.header-ad:hover {
+    opacity: 90%;
+}
+
+.nav-container {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2rem;
+    font-size: 1.2rem;
+    
+}
+
+.nav-container .logo {
+    margin: 0 0 0 1rem;
+}
+
+
+.navigation li a:hover{
+    color: #333;
+}
+
+.navigation li a:after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: var(--secondary-bg);
+    transition: width .3s ease;
+}
+
+.navigation li a:hover:after {
+    width: 100%;
+    transition: width .3s;
+}
+
+.nav-container  .hug-container {
+    display: flex;
+    padding: .8rem .5rem;
+}
+
+.second-nav .navigation{
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+}
+
+
+.navigation .nav-list {
+    margin: 0 2.5vh;
+}
+
+
+.hug-container  .about-us{
+    margin: 0 1rem 0 0;
+}
+
+.contacts {
+    margin: 0 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up-in {
+    display: flex;
+    margin: 0 0 0 1rem;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.search-container input{
+    width: 40vh;
+    padding: .8rem .5rem;
+    margin: 0 0 0 13.5vw;
+    border: none;
+    border-bottom: .5px solid black;
+    font-size: 1rem;
+}
+
+.search-container input:focus {
+    outline: none;
+}
+
+.bi-search {
+    margin: 1rem 0 0 0;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.picture-holder {
+    width: 40%;
+    padding: 0 2rem;
+}
+
+.picture-holder img {
+    width: 520px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+    width: 60%;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 15.5rem;
+    margin-right: 1.25rem;
+}
+
+.description h2 {
+    margin-bottom: 2rem; 
+    margin-right: 1.25rem;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.social-title {
+    display: flex;
+    justify-content: center;
+    margin: 0 2rem 0 0;
+    padding: 1.5em;
+    font-size: 1.2rem;
+    color: var(--alt-text-color);
+}
+
+.socials .bi{
+    justify-content: center;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+}
+
+.socials .bi:hover {
+    opacity: 70%;
+}
+
+.credit {
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 2rem 0 0;
+}
+
+
+a, button {
+    cursor: pointer;
+}
+
+.divider {
+    border: none;
+    border-bottom: .5px solid #e6e6e6;
+    margin: 1rem 0;
+}
+
+
+.divider {
+    border: none;
+    border-bottom: .5px solid #e6e6e6;
+    margin: 1rem 0;
+}
